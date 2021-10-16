@@ -1,0 +1,27 @@
+Project Scope
+Shipping Software 
+
+1 Process Orders (Seller Side)
+    1.1 Queue orders into system 
+    1.2 Assign orders to nearest fulfillment center
+    1.3 Add/Delete order number
+    1.4 Change order number
+    1.5 Search by order number
+    1.6 Add/Delete notes
+    1.7 View order contents
+    1.8 Update Delivery requirements
+    1.9 Load order number, contents, and UPC data into database
+
+2 Package Control (Fulfillment Center Side)
+    2.1 Scan Orders for Grouping Information
+    2.2 Grouping orders based on Geographical Location
+    2.3 Assigning a Delivery Station from the Location
+    2.4 Multiple Orders should be packaged together
+    2.5 Update Order Tracking Information
+
+3 Delivery (Delivery Carrier Side)
+    3.1 Scan order for Delivery and Grouping information 
+    3.2 View notes made on order 
+    3.3 View delivery requirements 
+    3.4 Update delivery status
+    3.5 Send delivery notification to client
