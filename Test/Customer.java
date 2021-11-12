@@ -7,9 +7,9 @@ import java.util.UUID;
 
 public class Customer {
 	
-	private static String id = "";
+	private String id = "";
 	
-	private static void generateID() {
+	private void generateID() {
 		
 		// generating Least Significant 64 Bits 
 		Random rand = new Random();
@@ -36,16 +36,8 @@ public class Customer {
 		
 	}
 	
-	public static String getID() {
+	public String getID() {
 		generateID();
 		return id;
 	}
-	
-	public static void main(String[] args) {
-		
-		System.out.println(getID());
-	}
-	
-	
-
 }
